@@ -1,0 +1,167 @@
+.container-header {
+  width: 100%;
+
+  /* padding: 0px 2%; */
+}
+.pages-div a{
+  text-decoration: none;
+  color: black;
+}
+.logo-componydetails{
+  width: 100%;
+  height: 100px;
+  max-height: 100px;
+  display: flex;
+  gap: 40px;
+  border-bottom: 0.7px solid rgba(0, 0, 0, 0.208);
+  align-items: center;
+  
+}
+.website-logo {
+  /* width: 46.5%; */
+  height: 100%;
+  background-color: white;
+  /* text-align: center; */
+}
+.website-logo img{
+  width: 150px;
+  height: 100px;
+  margin-left: 16%;
+  cursor: pointer;
+}
+
+.navbar-container {
+  width: 100%;
+  height: 80%;
+  /* background: skyblue; */
+  /* background-color:#ab2522;
+  border-left: 45px solid white;
+  border-bottom: 127px solid transparent;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  gap: 15px; */
+}
+.pages-div{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /* background-color: aqua; */
+}
+.pages-div ul{
+  list-style-type: none;
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+}
+.pages-div ul li{
+  font-size: 17px;
+  padding: 13px 17px;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+}
+
+.pages-div ul li:hover{
+  color: #ab2522;
+  position: relative;
+  border-bottom: 2px solid #ab2522  ;
+ }
+
+.responsive-container{
+  display: none;
+}
+
+
+/* responsive part for mobile and other */
+@media screen and (max-width: 1000px) {
+  .container-header {
+    width: 100%;
+  }
+  .logo-componydetails{
+   display: none;
+  }
+  .responsive-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .sub-responsive-div{
+    background-color: brown;
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .head-row{
+    display: flex;
+    width: 50%;
+    height: 42px;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    gap: 5px;
+    min-width: 20%;
+  }
+  .head-icon{
+    font-size: 20px;
+  }
+  .logo-menutab{
+    width: 100%;
+    height: 90px;
+    box-sizing: border-box;
+
+  }
+  .res-logo-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 30px;
+  }
+  .res-logo-div img{
+      width: 120px;
+      height: 100%;
+  }
+  .icon-menu{
+    border: 1px solid black;
+    font-size: 20px;
+  }
+  .menubar{
+    width: 100%;
+    height: 350px;
+    /* background-color: #ab2522; */
+    /* position: absolute; */
+    right: 0;
+    top: 120px;
+    transition: .15s;
+    margin-top: 10px;
+  }
+  .menubar ul{
+    /* float: right; */
+    list-style-type: none;
+    width: 100%;
+    /* position: fixed; */
+    background-color: #FFFFFF;
+    /* left: -100%; */
+  }
+  .menubar ul li{
+    text-decoration: none;
+    /* border: 1px solid black; */
+    display: block;
+    text-align: left;
+    padding: 10px;
+  }
+  .displynone{
+    display: none;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  .activephonetab{
+    background-color: #55595C;
+    color: white;
+  }
+}

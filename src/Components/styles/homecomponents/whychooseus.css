@@ -1,0 +1,250 @@
+.whychooseus-container{
+  margin-top: 160px;
+  width: 100%;
+  /* padding: 0 30px; */
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+}
+.row{
+  width: 100%;
+  display: flex;
+}
+/* text section */
+.whyus-text-div{
+ width: 34%;
+ height: 500px;
+ padding-right: 60px;
+ /* background-color: aqua; */
+ font-family: "Barlow", Sans-serif;
+}
+.text-whyus{
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+}
+.text-whyus h5{
+  font-size:20px ;
+}
+.text-whyus h2{
+  font-size:32px ;
+  color: #140D09;
+  font-weight: 500;
+}
+.text-whyus p{
+  font-size:16px ;
+  color: #65656A;
+  font-weight: 500;
+  line-height: 1.6rem;
+}
+.whyus-services{
+  width: 100%;
+  height: 150px;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.whyus-services ul{
+  list-style-type: none;
+}
+.whyus-services ul li{
+  font-size: 16px;
+  font-family: "Barlow", Sans-serif;
+  padding-bottom: 10px;
+}
+.mark-icon{
+  font-size: 18px;
+  color: #140D09;
+  font-weight: 900;
+  padding-right: 10px;
+  /* padding-top: 10px; */
+  top: 3px;
+  position: relative;
+}
+
+/* image section */
+.whyus-image-div{
+ width: 46%;
+ height: 470px;
+ background-color: #2C2D2D;
+}
+.whyus-image-div img{
+  width: 560px;
+  height: 400px;
+  /* margin-bottom: 10px; */
+}
+
+.img-whyus{
+  width: 40%;
+  height: 470px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+  /* border-left: 60px solid #441717;
+  border-bottom: 30px solid transparent;
+  box-sizing: border-box; */
+}
+
+/* accomplishment and numbers part */
+.accomplishment-div{
+  width: 100%;
+  height: 200px;
+  /* background-color: #26bbbb; */
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.accomplishment{
+  width: 85%;
+  height: 90%;
+  background-color: #FFFFFF;
+  /* border: 1px solid black; */
+  box-shadow: 0px 2px 4px 0 white,0 2px 8px 0 gray;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  gap: 10px;
+  font-family: "Barlow", Sans-serif;
+}
+.percentage{
+  width: 30%;
+  height: 100%;
+  /* background-color: #26bb4b; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.percentage span{
+  font-size: 35px;
+  font-weight: 900;
+}
+.percentage p{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .whychooseus-container{
+    margin-top: 50px;
+    width: 100%;
+    /* padding: 0 30px; */
+    /* background-color: aqua; */
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* gap: 80px; */
+  }
+  .whyus-text-div{
+    width: 100%;
+    height: 650px;
+    /* padding: 0 10px; */
+    padding-right: 0px;
+    /* background-color: aqua; */
+    font-family: "Barlow", Sans-serif;
+   }
+   .whyus-services{
+    width: 100%;
+    height: 150px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 0px;
+    margin-top: 50px;
+  }
+  .whyus-services ul{
+    padding: 0px 14px;
+    font-size: 14px;
+  } 
+  .text-whyus h2{
+    font-size:25px ;
+    color: #140D09;
+    font-weight: 500;
+  }
+  .text-whyus{
+    padding: 0px 14px;
+  }
+   .whyus-image-div{
+    width: 100%;
+    height: 220px;
+    background-color: #26bbbb;
+    margin-top: 100px;
+   }
+   .whyus-image-div img{
+    width: 100%;
+    height: 100%;
+    /* margin-bottom: 10px; */
+  }
+  .img-whyus{
+    width: 100%;
+    height: 300px;
+    /* background-color: rgb(143, 20, 20); */
+    display: flex;
+    align-items: center;
+    padding: 10px 14px;
+    /* padding-left: 0px; */
+    /* margin: 0px 10px; */
+    box-sizing: border-box;
+    justify-content: center;
+    
+    /* border-left: 60px solid #441717;
+    border-bottom: 30px solid transparent;
+    box-sizing: border-box; */
+  }
+  .mark-icon{
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  /* accomplishment part */
+  .accomplishment-div{
+    width: 100%;
+    height: auto;
+    /* background-color: #26bbbb; */
+    margin-top: 0px;
+    display: flex;
+    padding: 30px 0px;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* padding: 0px 14px; */
+  }
+  .accomplishment{
+    width: 95%;
+    height: 100%;
+    /* background-color: #7c2c73; */
+    /* border: 1px solid black; */
+    /* padding: 0px 10px; */
+    box-shadow: 0px 2px 4px 0 white,0 2px 8px 0 gray;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .percentage{
+    width: 45%;
+    height: 150px;
+    /* background-color: #bb2626; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .percentage span{
+    font-size: 25px;
+    font-weight: 900;
+  }
+  .percentage p{
+    font-size: 16px;
+    font-weight: 500;
+  }
+}

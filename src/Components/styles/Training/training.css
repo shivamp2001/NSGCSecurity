@@ -1,0 +1,115 @@
+.training-container{
+  width: 100%;
+  height: 100%;
+}
+/* section-1 */
+.training-image-div{
+  width: 100%;
+  height: 400px;
+  background-image: url("../../../assets//aboutbg.webp");
+  background-size: cover;
+  background-position: 0 29%;
+}
+.training-bg{
+  width: 100%;
+  height: 100%;
+  background-color: #0b0b1b;
+   opacity: .7; 
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center ;
+  gap: 20px;
+}
+
+/* section-2 */
+.training-text-image{
+  width: 100%;
+  height: 700px;
+  display: flex;
+  box-sizing: border-box;
+  padding: 120px;
+  /* background-color: aqua; */
+}
+
+.traning-text-part{
+  width: 50%;
+  height: 100%;
+  /* background-color: blue; */
+  padding-right: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-family: "Barlow", Sans-serif;
+}
+.traning-text-part h2{
+  font-size: 32px;
+  font-weight: 300;
+}
+.traning-text-part p{
+  font-size: 16px;
+  line-height: 25px;
+  color: #65656A;
+}
+.traning-image-part{
+  width: 50%;
+  height: 100%;
+  background-color: #0b0b1b;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.training-img{
+  width: 100%;
+  height: 100%;
+  background-image: url("../../../assets//trainingimg1.webp");
+  background-size: cover;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .training-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .training-image-div{
+    height: 240px;
+  }
+  .training-text-image{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px 15px;
+    gap: 50px;
+    /* background-color: aqua; */
+  }
+  .traning-text-part{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 40px;
+    font-family: "Barlow", Sans-serif;
+  }
+  .traning-text-part h2{
+    font-size: 25px;
+  }
+  .traning-text-part p{
+    font-size: 14px;
+  }
+  .traning-image-part{
+    width: 100%;
+    height: 250px;
+    background-color: #0b0b1b;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,302 @@
+.home-container{
+  width: 100%;
+
+}
+/* section-1 /First */
+.section-1{
+width: 100%;
+}
+
+.home-bg-img{
+width: 100%;
+height: 700px;
+background-image: url("../../../assets//homebgimg.jpg");
+/* object-fit: cover; */
+background-size: cover;
+display: flex;
+align-items: center;
+background-color: #AB2522;
+}
+.text-content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+  width: 50%;
+  height: 300px;
+  padding-left: 100px;
+}
+.home-bg-img h2{
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+}
+.home-bg-img p{
+  font-size: 16px;
+  font-family: "Barlow", Sans-serif;
+  /* color: rgba(255, 255, 255, 0.635); */
+}
+.text-content button{
+  width: 200px;
+  height: 64px;
+  background-color: #140D09;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 3px;
+  font-family: "Barlow", Sans-serif;
+  cursor: pointer;
+}
+.text-content button:hover{
+  background-color: #140d09cb
+}
+.redcolor{
+  color: #140D09;font-weight: 900;
+}
+
+/* about-contact */
+
+.about-contact{
+  width: 100%;
+  height: 500px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  padding-bottom: 150px;
+}
+.part-about{
+  width: 50%;
+  height: 472px;
+  /* background-color: #AB2522; */
+  padding-top: 30px;
+  padding-right: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  line-height: 1.6em;
+  font-family: "Barlow", Sans-serif;
+}
+.part-about p{
+ font-size: 16px;
+ color: #000000;
+}
+.part-about h2{
+  color: #140D09;
+  font-size: 32px;
+  /* font-family: "Barlow", Sans-serif; */
+  font-weight: 600;
+}
+.part-about h3{
+  color: #140d09;
+  font-size: 32px;
+  /* font-family: "Barlow", Sans-serif; */
+  font-weight: 300;
+}
+/* part-contact */
+.part-contact{
+  position: relative;
+  width: 30%;
+  height: 552px;
+  background-color: #FFFFFF;
+  bottom: 80px;
+  box-shadow: 0px 2px 4px 0 white,0 2px 8px 0 gray;
+}
+.con-heading{
+  height: 80px;
+  background-color: #140D09;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.con-heading h2{
+ font-size: 32px;
+ color: white;
+ font-family: "Barlow", Sans-serif;
+ font-weight: 500;
+}
+
+
+/* contact textfield */
+
+.contact-textfields{
+  width: 100%;
+  height: 86%;
+  /* padding: 10pxmar; */
+  /* background-color: aqua; */
+  /* display: flex;
+  text-align: center;
+  justify-content: center; */
+   display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.textfield-div{
+  width: 90%;
+  height: 90%;
+  background-color: #FFFFFF;
+   display: flex;
+  /* text-align: center; */
+  flex-direction: column;
+  justify-content: start;
+}
+.text-fields{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: start;
+  margin-top: 20px;
+}
+.text-fields input{
+  height: 40px;
+  margin-top: 3px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+textarea{
+  resize: none;
+  padding-left: 10px;
+  font-size: 15px;
+  padding-top: 7px;
+}
+.con-submit{
+  width: 100%;
+  /* background-color: black; */
+  margin-top: 20px;
+
+}
+.con-submit button{
+  background: black;
+  color: white;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 1000px) {
+  .home-container{
+    /* padding: 10px; */
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    /* background-color: aqua; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-bg-img{
+    width: 100%;
+    height: 500px;
+    /* background-image: url("../../../assets//founderimage.png"); */
+    background-size: cover;
+    /* display: flex;
+    align-items: center; */
+   
+    }
+    .part-about{
+      width: 50%;
+      height: 472px;
+      /* background-color: #AB2522; */
+      padding-top: 30px;
+      padding-right: 0px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      line-height: 1.6em;
+    }
+  
+    .text-content{
+      height: 500px;
+      padding-left: 15px;
+      width: 100%;
+      /* background-color: aliceblue; */
+      display: flex;
+      /* align-items: center; */
+      justify-content: center;
+    }
+    .home-bg-img h2{
+      font-size: 26px;
+      font-weight: 500;
+    }
+    .home-bg-img p{
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.735);
+      font-family: "Barlow", Sans-serif;
+      font-weight: 300;
+      line-height: 20px;
+     }
+    .con-heading h2{
+      font-size: 20px;
+      color: white;
+      font-family: "Barlow", Sans-serif;
+      font-weight: 500;
+     }
+     .text-content button{
+      width: 200px;
+      height: 60px;
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 20px;
+    }
+    .text-content{
+      color: white;
+      width: 80%;
+      max-width: 80%;
+      height: 300px;
+    }
+           /* section 1 */
+    .about-contact{
+      width: 93%;
+      height: auto;
+      padding: 2%;
+      margin: 2%;
+      padding-bottom: 30px;
+      display: flex;
+      padding-bottom: 150px;
+      flex-direction: column;
+      align-items: center;
+    }
+       /* part about */
+    .part-about{
+      width: 100%;
+      height: 522px;
+    }
+    .part-about h2{
+      font-size: 25px;
+    }
+    .part-about p{
+      font-size: 14px;
+     }
+     .part-about h2{
+       font-size: 25px;
+     }
+     .part-about h3{
+       font-size: 25px;
+     }
+
+    /* part contact */
+    .part-contact{
+      width: 100%;
+      height: 552px;
+      bottom: 0px;
+      margin-top:150px;
+      position:inherit;
+      box-shadow: 0px 2px 4px 0 white,0 2px 8px 0 gray;
+      /* box-sizing: border-box; */
+    }
+    .part-contact{
+      bottom: 0px;
+    }
+    .con-heading{
+      background-color:#140D09;
+      width: 100%;
+      align-self: center;
+    }
+   
+  
+}
